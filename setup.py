@@ -1,13 +1,20 @@
 import setuptools
 
+# https://packaging.python.org/guides/distributing-packages-using-setuptools/#setup-args
 setuptools.setup(name='netlicensing-python-client',
-                 version='0.0.1',
+                 version='0.0.1.dev1',
                  description='Python wrapper for Labs64 NetLicensing RESTful API',
                  long_description=open('README.md').read().strip(),
                  long_description_content_type="text/markdown",
                  author='Labs64 NetLicensing',
                  author_email='info@netlicensing.io',
                  url='https://github.com/Labs64/NetLicensingClient-python',
+                 project_urls={
+                     'NetLicensing': 'https://netlicensing.io',
+                     'Documentation': 'https://netlicensing.io/documentation/',
+                     'Source': 'https://github.com/Labs64/NetLicensingClient-python',
+                     'Tracker': 'https://github.com/Labs64/NetLicensingClient-python/issues',
+                 },
                  py_modules=['netlicensing'],
                  install_requires=[],
                  license='Apache-2.0',
