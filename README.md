@@ -1,3 +1,5 @@
+**WARNING:** Package status: "work-in-progress" - stay tuned at [NetLicensing #changelog](https://netlicensing.io/wiki/changelog) for the latest NetLicensing news.
+
 <a href="https://netlicensing.io"><img src="https://netlicensing.io/img/netlicensing-stage-twitter.jpg" alt="Innovative License Management Solution"></a>
 
 # [Labs64 NetLicensing](https://netlicensing.io) Client (Python)
@@ -11,11 +13,21 @@ Python wrapper for Labs64 NetLicensing [RESTful API](http://l64.cc/nl10)
 
 Visit Labs64 NetLicensing at https://netlicensing.io
 
-## How to Use
+## Installing
 
-*TODO*
+The NetLicensing python package can be installed by executing:
 
-## Tests
+```bash
+pip install netlicensing
+```
+
+Alternatively, you can install the latest development version directly from GitHub via:
+
+```bash
+pip install -e git+https://github.com/Labs64/NetLicensingClient-python#egg=netlicensing
+```
+
+## Testing
 
 Testing is set up using [pytest](http://pytest.org) and coverage is handled with the pytest-cov plugin.
 
