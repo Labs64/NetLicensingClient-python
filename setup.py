@@ -1,9 +1,7 @@
 import setuptools
-from netlicensing.version import Version
-
 
 setuptools.setup(name='netlicensing-python-client',
-                 version=Version('0.0.1').number,
+                 version='0.0.1',
                  description='Python wrapper for Labs64 NetLicensing RESTful API',
                  long_description=open('README.md').read().strip(),
                  author='Labs64 NetLicensing',
