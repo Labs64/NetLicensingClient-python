@@ -4,9 +4,13 @@
 
 # [Labs64 NetLicensing](https://netlicensing.io) Client (Python)
 
-[![Build Status](https://github.com/Labs64/NetLicensingClient-python/workflows/NetLicensing%20Client%20CI/badge.svg)](https://github.com/Labs64/NetLicensingClient-python/actions?query=workflow%3A%22NetLicensing+Client+CI%22)
-[![npm version](https://badge.fury.io/js/netlicensing-client.svg)](https://badge.fury.io/js/netlicensing-client)
+[![Build Status](https://github.com/Labs64/NetLicensingClient-python/workflows/Test%20Python%20Package/badge.svg)](https://github.com/Labs64/NetLicensingClient-python/actions?query=workflow%3A%22Test+Python+Package%22)
+[![PyPI](https://img.shields.io/pypi/v/netlicensing-python-client.svg)](https://pypi.org/project/netlicensing-python-client/)
+[![TestPyPI](https://img.shields.io/testpypi/v/netlicensing-python-client.svg)](https://test.pypi.org/project/netlicensing-python-client/)
+[![PyVer](https://img.shields.io/pypi/pyversions/netlicensing-python-client.svg)](https://pypi.org/project/netlicensing-python-client)
+[![Docs](https://img.shields.io/readthedocs/netlicensing-python-client)](https://netlicensing-python-client.readthedocs.io)
 [![Requires.io](https://requires.io/github/mtchavez/NetLicensingClient-python/requirements.svg?branch=master)](https://requires.io/github/mtchavez/NetLicensingClient-python/requirements?branch=master)
+[![Codecov](https://img.shields.io/codecov/c/github/pypa/twine)](https://codecov.io/gh/pypa/twine)
 
 
 Python wrapper for Labs64 NetLicensing [RESTful API](http://l64.cc/nl10)
