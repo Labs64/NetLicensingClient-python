@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 # https://packaging.python.org/guides/distributing-packages-using-setuptools/#setup-args
 setup(name='netlicensing-python-client',
-                 version='0.0.1',
+                 version='0.0.3',
                  description='Python wrapper for Labs64 NetLicensing RESTful API',
                  long_description=open('README.md').read().strip(),
                  long_description_content_type="text/markdown",
