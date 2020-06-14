@@ -36,7 +36,7 @@ class NetLicensing:
 
     @staticmethod
     def get_response(response):
-        verbose = True
+        verbose = False
         if verbose:
             print('NetLicensing response:')
             print(response.url)
@@ -47,10 +47,6 @@ class NetLicensing:
         if response.status_code != requests.codes.ok:
             raise NetLicensing.HttpError(response.status_code, response.reason)
         result = response.json()
-
-        if verbose:
-            print('NetLicensing result:')
-            print(result)
 
         return result
 

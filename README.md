@@ -30,11 +30,28 @@ pip install -e git+https://github.com/Labs64/NetLicensingClient-python#egg=netli
 
 ## How to Use
 
-*TODO*
+To access NetLicensing RESTful API services a valid vendor account is needed.
+The recommended way to access API services is 'API Key'.
+API Key can be obtained via the NetLicensing Management Console at https://ui.netlicensing.io/#/settings
+
+Depending on API services different [API Key Role](https://netlicensing.io/wiki/security#api-key-identification) needs to be used.
+
+```python
+from netlicensing import NetLicensing
+
+# sample variables need to be replaced using yours
+API_KEY = '2f8459a9-08dc-4d70-882a-1bc27d1ae9a8'
+CUSTOMER_NUMBER = 'CUST-11'
+
+nlic = NetLicensing(API_KEY)
+response = nlic.validate(CUSTOMER_NUMBER)
+
+print(response)
+```
 
 ## How to Contribute
 
-Everyone is welcome to [contribute](CONTRIBUTING) to this project!
+Everyone is welcome to [contribute](CONTRIBUTING.md) to this project!
 Once you're done with your changes send a pull request and check [CI Status](https://github.com/Labs64/NetLicensingClient-python/actions).
 Thanks!
 
