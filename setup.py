@@ -36,7 +36,6 @@ setuptools.setup(name='netlicensing-python-client',
                      'Programming Language :: Python :: 3.6',
                      'Programming Language :: Python :: 3.7',
                      'Programming Language :: Python :: 3.8',
-                     'Programming Language :: Python :: 3.9',
                      'Topic :: Software Development :: Libraries :: Python Modules',
                      'Topic :: System :: Software Distribution',
                      'Topic :: Utilities'
