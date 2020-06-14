@@ -7,8 +7,8 @@
 # [Labs64 NetLicensing](https://netlicensing.io) Client (Python)
 
 [![CI Status](https://github.com/Labs64/NetLicensingClient-python/workflows/Python%20Client%20CI/badge.svg)](https://github.com/Labs64/NetLicensingClient-python/actions?query=workflow%3A%22Python+Client+CI%22)
-[![PyPI](https://img.shields.io/pypi/v/netlicensing-python-client.svg)](https://pypi.org/project/netlicensing-python-client/)
-[![PyVer](https://img.shields.io/pypi/pyversions/netlicensing-python-client.svg)](https://pypi.org/project/netlicensing-python-client)
+[![PyPI](https://img.shields.io/pypi/v/netlicensing-client.svg)](https://pypi.org/project/netlicensing-client/)
+[![PyVer](https://img.shields.io/pypi/pyversions/netlicensing-client.svg)](https://pypi.org/project/netlicensing-client)
 [![codecov](https://codecov.io/gh/Labs64/NetLicensingClient-python/branch/master/graph/badge.svg)](https://codecov.io/gh/Labs64/NetLicensingClient-python)
 
 
@@ -21,7 +21,7 @@ Visit Labs64 NetLicensing at https://netlicensing.io
 The NetLicensing python package can be installed by executing:
 
 ```bash
-pip install netlicensing-python-client
+pip install netlicensing-client
 ```
 
 Alternatively, you can install the latest development version directly from GitHub via:
