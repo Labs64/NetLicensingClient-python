@@ -1,5 +1,7 @@
 **WARNING:** Package status: "work-in-progress" - stay tuned at NetLicensing [#changelog](https://netlicensing.io/wiki/changelog) for the latest NetLicensing news.
 
+---
+
 <a href="https://netlicensing.io"><img src="https://netlicensing.io/img/netlicensing-stage-twitter.jpg" alt="Innovative License Management Solution"></a>
 
 # [Labs64 NetLicensing](https://netlicensing.io) Client (Python)
@@ -31,8 +33,8 @@ pip install -e git+https://github.com/Labs64/NetLicensingClient-python#egg=netli
 ## How to Use
 
 To access NetLicensing RESTful API services a valid vendor account is needed.
-The recommended way to access API services is 'API Key'.
-API Key can be obtained via the NetLicensing Management Console at https://ui.netlicensing.io/#/settings
+The recommended way to access API services is *'API Key'*.
+API Key can be obtained via the NetLicensing [Management Console](https://ui.netlicensing.io/#/settings).
 
 Depending on API services different [API Key Role](https://netlicensing.io/wiki/security#api-key-identification) needs to be used.
 
