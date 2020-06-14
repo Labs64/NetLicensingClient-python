@@ -73,3 +73,7 @@ class NetLicensing:
     def get_licensee(self, licensee_number):
         url = f'{self.nlic_baseurl}licensee/{licensee_number}'
         return self._get(url)
+
+    def delete_licensee(self, licensee_number):
+        url = f'{self.nlic_baseurl}licensee/{licensee_number}'
+        return self._delete(url)
