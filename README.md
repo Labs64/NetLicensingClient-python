@@ -1,4 +1,4 @@
-**WARNING:** Package status: "work-in-progress" - stay tuned at [NetLicensing #changelog](https://netlicensing.io/wiki/changelog) for the latest NetLicensing news.
+**WARNING:** Package status: "work-in-progress" - stay tuned at NetLicensing [#changelog](https://netlicensing.io/wiki/changelog) for the latest NetLicensing news.
 
 <a href="https://netlicensing.io"><img src="https://netlicensing.io/img/netlicensing-stage-twitter.jpg" alt="Innovative License Management Solution"></a>
 
@@ -19,7 +19,7 @@ Visit Labs64 NetLicensing at https://netlicensing.io
 The NetLicensing python package can be installed by executing:
 
 ```bash
-pip install netlicensing
+pip install netlicensing-python-client
 ```
 
 Alternatively, you can install the latest development version directly from GitHub via:
@@ -28,41 +28,13 @@ Alternatively, you can install the latest development version directly from GitH
 pip install -e git+https://github.com/Labs64/NetLicensingClient-python#egg=netlicensing
 ```
 
-## Test
+## How to Use
 
-Testing is set up using [pytest](http://pytest.org) and coverage is handled with the pytest-cov plugin.
-
-Run your tests with ```py.test``` in the root directory.
-
-Coverage is ran by default and is set in the ```pytest.ini``` file.
-To see an html output of coverage open ```htmlcov/index.html``` after running the tests.
-
-## Release
-
-Install [Twine](https://twine.readthedocs.io):
-
-```bash
-pip install twine
-```
-
-Create distributions:
-
-```bash
-python setup.py sdist bdist_wheel
-```
-
-Upload to TestPyPI/PyPI:
-
-```bash
-# Test PyPi
-twine upload -r testpypi dist/*
-# PyPi
-twine upload dist/*
-```
+*TODO*
 
 ## How to Contribute
 
-Everyone is welcome to contribute to this project!
+Everyone is welcome to [contribute](CONTRIBUTING) to this project!
 Once you're done with your changes send a pull request and check [CI Status](https://github.com/Labs64/NetLicensingClient-python/actions).
 Thanks!
 
