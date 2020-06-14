@@ -4,7 +4,7 @@
 
 # [Labs64 NetLicensing](https://netlicensing.io) Client (Python)
 
-[![Build Status](https://github.com/Labs64/NetLicensingClient-python/workflows/Test%20Python%20Package/badge.svg)](https://github.com/Labs64/NetLicensingClient-python/actions?query=workflow%3A%22Test+Python+Package%22)
+[![CI Status](https://github.com/Labs64/NetLicensingClient-python/workflows/Test%20Python%20Package/badge.svg)](https://github.com/Labs64/NetLicensingClient-python/actions?query=workflow%3A%22Test+Python+Package%22)
 [![PyPI](https://img.shields.io/pypi/v/netlicensing-python-client.svg)](https://pypi.org/project/netlicensing-python-client/)
 [![PyVer](https://img.shields.io/pypi/pyversions/netlicensing-python-client.svg)](https://pypi.org/project/netlicensing-python-client)
 [![Docs](https://img.shields.io/readthedocs/netlicensing-python-client)](https://netlicensing-python-client.readthedocs.io)
