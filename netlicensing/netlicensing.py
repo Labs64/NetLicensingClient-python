@@ -6,11 +6,16 @@ __all__ = ['NLIC_API_URL', 'NetLicensing']
 NLIC_API_URL = 'https://go.netlicensing.io/core/v2/rest/'
 
 class NetLicensing:
-    def __init__(self, imp_url=NLIC_API_URL):
-        self.imp_url = imp_url
+    def __init__(self, nlic_apikey, nlic_baseurl=NLIC_API_URL):
+        self.nlic_apikey = nlic_apikey
+        self.nlic_baseurl = nlic_baseurl
+        # https://requests.readthedocs.io/en/master/user/advanced/
         requests_session = requests.Session()
         requests_adapters = requests.adapters.HTTPAdapter(max_retries=3)
         requests_session.mount('https://', requests_adapters)
+        # https://netlicensing.io/wiki/security#api-key-identification
+        requests_session.auth = ('apiKey', self.nlic_apikey)
+        requests_session.headers.update({'Accept': 'application/json'})
         self.requests_session = requests_session
 
     def about(self):
@@ -39,15 +44,32 @@ class NetLicensing:
             )
         return result.get('response')
 
-    def get_headers(self):
-        return {'Accept': 'application/json'}
+    def _get(self, url, payload=None):
+        response = self.requests_session.get(url, params=payload)
+        return self.get_response(response)
 
     def _post(self, url, payload=None):
-        headers = self.get_headers()
-        response = self.requests_session.post(url, headers=headers, data=payload)
+        response = self.requests_session.post(url, headers={'Content-Type': 'application/x-www-form-urlencoded'}, data=payload)
+        return self.get_response(response)
+
+    def _delete(self, url, payload=None):
+        response = self.requests_session.delete(url, data=payload)
         return self.get_response(response)
 
     def validate(self, licensee_uid):
-        url = f'{self.imp_url}licensee/{licensee_uid}/validate'
-        payload = {'licensee_uid': licensee_uid, 'amount': licensee_uid}
+        url = f'{self.nlic_baseurl}licensee/{licensee_uid}/validate'
+        payload = {'licensee_uid': licensee_uid}
         return self._post(url, payload)
+
+    def get_licensee(self, licensee_uid):
+        url = f'{self.imp_url}licensee/{licensee_uid}'
+        return self._get(url)
+
+    def get_licensee(self, **kwargs):
+        customer_uid = kwargs.get('customer_uid')
+        url = f'{self.imp_url}licensee/{customer_uid}'
+        return self._get(url)
+
+    def delete_licensee(self, licensee_uid):
+        url = f'{self.imp_url}licensee/{licensee_uid}'
+        return self._delete(url)
