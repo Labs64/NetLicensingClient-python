@@ -1,4 +1,5 @@
 import pytest
 
 def test_about(netlicensing):
-    netlicensing.about()
+    about_text = netlicensing.about()
+    assert u'LaaS' in about_text
