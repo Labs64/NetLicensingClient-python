@@ -8,8 +8,7 @@
 [![PyPI](https://img.shields.io/pypi/v/netlicensing-python-client.svg)](https://pypi.org/project/netlicensing-python-client/)
 [![PyVer](https://img.shields.io/pypi/pyversions/netlicensing-python-client.svg)](https://pypi.org/project/netlicensing-python-client)
 [![Docs](https://img.shields.io/readthedocs/netlicensing-python-client)](https://netlicensing-python-client.readthedocs.io)
-[![Requires.io](https://requires.io/github/mtchavez/NetLicensingClient-python/requirements.svg?branch=master)](https://requires.io/github/mtchavez/NetLicensingClient-python/requirements?branch=master)
-[![Codecov](https://img.shields.io/codecov/c/github/pypa/twine)](https://codecov.io/gh/pypa/twine)
+[![Codecov](https://img.shields.io/codecov/c/github/pypa/netlicensing-python-client)](https://codecov.io/gh/pypa/netlicensing-python-client)
 
 
 Python wrapper for Labs64 NetLicensing [RESTful API](http://l64.cc/nl10)
