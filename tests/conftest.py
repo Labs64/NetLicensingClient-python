@@ -2,7 +2,7 @@ from pytest import fixture
 
 from netlicensing import NetLicensing
 
-TEST_API_LEY = '88178d92-7657-46e9-912b-30066dc9f419'
+TEST_API_LEY = '8d4282ba-a331-4b84-9deb-59dbbc75e5df'
 
 def pytest_addoption(parser):
     parser.addoption('--nlic-apikey', default=TEST_API_LEY,
