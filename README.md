@@ -8,6 +8,7 @@
 
 [![CI Status](https://github.com/Labs64/NetLicensingClient-python/workflows/Python%20Client%20CI/badge.svg)](https://github.com/Labs64/NetLicensingClient-python/actions?query=workflow%3A%22Python+Client+CI%22)
 [![PyPI](https://img.shields.io/pypi/v/netlicensing-client.svg)](https://pypi.org/project/netlicensing-client/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/netlicensing-client)](https://pypistats.org/packages/netlicensing-client)
 [![PyVer](https://img.shields.io/pypi/pyversions/netlicensing-client.svg)](https://pypi.org/project/netlicensing-client)
 [![codecov](https://codecov.io/gh/Labs64/NetLicensingClient-python/branch/master/graph/badge.svg)](https://codecov.io/gh/Labs64/NetLicensingClient-python)
 
