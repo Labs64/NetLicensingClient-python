@@ -1,4 +1,4 @@
-**WARNING:** Package status: "work-in-progress" - stay tuned at NetLicensing [#changelog](https://netlicensing.io/wiki/changelog) for the latest NetLicensing news.
+**WARNING:** Package status: *"work-in-progress"* - stay tuned at NetLicensing [#changelog](https://netlicensing.io/wiki/changelog) for the latest NetLicensing news.
 
 ---
 
@@ -11,11 +11,12 @@
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/netlicensing-client)](https://pypistats.org/packages/netlicensing-client)
 [![PyVer](https://img.shields.io/pypi/pyversions/netlicensing-client.svg)](https://pypi.org/project/netlicensing-client)
 [![codecov](https://codecov.io/gh/Labs64/NetLicensingClient-python/branch/master/graph/badge.svg)](https://codecov.io/gh/Labs64/NetLicensingClient-python)
+<br>
 [![Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Labs64/NetLicensingClient-python/blob/master/LICENSE)
 [![📖 Documentation](https://img.shields.io/badge/📖%20Documentation-Wiki-AB6543.svg)](https://netlicensing.io/wiki/restful-api)
 [![NetLicensing @ LinkedIn](https://img.shields.io/badge/NetLicensing-0077B5.svg?logo=LinkedIn)](https://www.linkedin.com/showcase/netlicensing)
 
-Python wrapper for Labs64 NetLicensing [RESTful API](http://l64.cc/nl10)
+Python wrapper for Labs64 NetLicensing [RESTful API](https://netlicensing.io/wiki/restful-api)
 
 Visit Labs64 NetLicensing at https://netlicensing.io
 
