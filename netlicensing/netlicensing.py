@@ -62,7 +62,7 @@ class NetLicensing:
         response = self.requests_session.delete(url, data=payload)
         return self.get_response(response)
 
-    def validate(self, licensee_number):
+    def validate(self, licensee_number, validation_parameters=None):
         url = f'{self.nlic_baseurl}licensee/{licensee_number}/validate'
         return self._post(url)
 
