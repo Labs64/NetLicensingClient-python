@@ -2,7 +2,7 @@ name: Python Client - Dependency Test
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/59 * * * *'
 
 jobs:
   build:
