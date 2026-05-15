@@ -6,7 +6,7 @@
 [![PyPI](https://img.shields.io/pypi/v/netlicensing-client.svg)](https://pypi.org/project/netlicensing-client/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/netlicensing-client)](https://pypistats.org/packages/netlicensing-client)
 [![PyVer](https://img.shields.io/pypi/pyversions/netlicensing-client.svg)](https://pypi.org/project/netlicensing-client)
-[![codecov](https://codecov.io/gh/Labs64/NetLicensingClient-python/branch/master/graph/badge.svg)](https://codecov.io/gh/Labs64/NetLicensingClient-python)
+[![codecov](https://codecov.io/gh/Labs64/NetLicensingClient-python/graph/badge.svg?token=3J0585YLgO)](https://codecov.io/gh/Labs64/NetLicensingClient-python)
 <br>
 [![Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Labs64/NetLicensingClient-python/blob/master/LICENSE)
 [![📖 Documentation](https://img.shields.io/badge/📖%20Documentation-Wiki-AB6543.svg)](https://netlicensing.io/wiki/restful-api)
@@ -14,7 +14,7 @@
 
 Python client library for the [Labs64 NetLicensing](https://netlicensing.io) RESTful API.
 
-Built on **Python 3.10+**, [httpx](https://www.python-httpx.org/) and [Pydantic v2](https://docs.pydantic.dev/).
+Built on **Python 3.11+**, [httpx](https://www.python-httpx.org/) and [Pydantic v2](https://docs.pydantic.dev/).
 Supports API-key and username/password authentication, automatic retries with exponential back-off,
 strongly-typed response models, and transparent pagination.
 
